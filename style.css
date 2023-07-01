@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0vh 10vw;
+}
+h3{
+    display: inline-block;
+    margin: 20px;
+}
+button{
+    display: block;
+    margin:10px;
+    padding: 15px;
+    border-radius: 30px;
+    background: linear-gradient(rgb(224, 119, 224),rgb(223, 223, 108));
+}
+.grid{
+    border: 1px solid black;
+    height:540px ;
+    width: 540px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div{
+    width: 60px;
+    height: 60px;
+}
+
+.ending-block{
+    background-color: red;
+}
+.starting-block{
+    background-color: rgb(34, 26, 149);
+}
+
+/* .log-left,.log-right{
+    background-color: lightblue;
+} */
+/* .car-left,.car-right{
+    background-color: lightgray;
+} */
+
+
+
+.l1,.l2,.l3{
+    background-color: brown;
+}
+.l4,.l5{
+    background-color: lightblue;
+}
+
+.c1{
+    background-color: black;
+}
+.c2,.c3{
+    background-color: lightgray;
+}
+.frog{
+    background-color: green;
+    z-index: 1;
+}
